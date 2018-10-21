@@ -1,0 +1,168 @@
+
+.topBar{
+  width: 100;
+  height: 32px;
+  /* border-bottom: solid 1px gray; */
+  display: flex;
+}
+.topBar > .innerLogo, .innerSearchDiv, .topBarUl{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.innerLogo{
+  width: 54px;
+  height: 32px;
+  margin-left: 16px;
+}
+.innerNode {
+  height: 100%;
+  width: 100%;
+  background-image: url('../assets/nodejs.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 3px;
+}
+.innerSearchDiv{
+  width: 110px;
+  height: 14px;
+  margin-left: 230px;
+  position: relative;
+}
+.innerSearch{
+  margin-top: 1px;
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  border: 0.2px solid gray;
+  line-height: 12px;
+  font-size: 5.5px;
+  letter-spacing: 0.3px;
+  color: gray;
+  border-radius: 2em;
+  padding-left: 12px;
+}
+.searchIcon {
+  margin-top: 4.5px;
+  margin-left: 4px;
+  position: absolute;
+  z-index: 100;
+  height: 6px;
+  width : 6px;
+  background-image: url('../assets/searchIcon.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.topBarUl {
+  margin-left: 36px;
+}
+.innerSearch:focus{
+}
+li {
+  display: inline;
+}
+li > a {
+  position: relative;
+  top: -4.5px;
+  cursor: pointer;
+  font-size: 7px;
+  margin-right: 24px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 100%;
+  color: gray;
+}
+.section {
+  width: 100%;
+  height: 240px;
+  position: relative;
+}
+.firstSection, .secendSection{
+  width: 50%;
+  height: 120px;
+  background: #fff;
+  margin-left: 23.3%;
+  /* margin-left: 150px; */
+  position: relative;
+}
+.nodejsLogo, .reactLogo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 24px;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100px;
+  height: 60px;
+  background-image: url('../assets/nodejs2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+a{
+  text-decoration:none;
+  color: #fff;
+}
+.innerText, .innerText2{
+  position: absolute;
+  height: 30px;
+  width: 200px;
+  left: 150px;
+  top: 0;
+  bottom: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.nodejsIntro, .reactIntro{
+  font-size: 8px;
+  display: inline-block;
+  line-height: 12px;
+}
+.nodejsIntro > a{
+  text-decoration:none;
+  color: green;
+}
+.downloadBtn, .startBtn, .goReactBtn, .startReact{
+  position: absolute;
+  top: 75px;
+  left: 150px;
+  width: 64px;
+  height: 20px;
+  background: green;
+  font-size: 6px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 2em;
+}
+.startBtn{
+  left: 228px;
+  background: #fff;
+  border: solid 0.5px green;
+  color: green;
+  box-sizing: border-box;
+}
+.secendSection{
+  top: -8px;
+}
+.row1, .row2{
+  width: 100%;
+  display: flex;
+}
+.reactLogo {
+  background-image: url('../assets/react.jpg');
+}
+.reactIntro > a {
+  color : #00d8ff;
+}
+.goReactBtn {
+  top: 32px;
+  left: 0px;
+  background-color : #00d8ff;
+}
+.startReact {
+  top: 32px;
+  left: 78px;
+  background-color: #fff;
+  border: 0.5px solid #00d8ff;
+  color: #00d8ff;
+  /* font-weight: bold; */
+}
